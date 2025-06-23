@@ -13,7 +13,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: 6fd1ced85fc139abd7f5ab4f3d78dab37592cd5e # frozen: v3.0.0-alpha.9-for-vscode
+    rev: ffb6a759a979008c0e6dff86e39f4745a2d9eac4 # frozen: v3.1.0
     hooks:
       - id: prettier
 
