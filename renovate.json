@@ -1,3 +1,17 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:best-practices",
+        ":semanticCommitScopeDisabled"
+    ],
+    "commitMessagePrefix": "",
+    "commitMessageAction": "Bump",
+    "commitBody": "refs: LHD-22794",
+    "commitMessageTopic": "{{depName}}",
+    "enabledManagers": [
+        "pre-commit"
+    ],
+    "pre-commit": {
+        "enabled": true
+    }
 }
