@@ -23,6 +23,6 @@ repos:
       - id: typos
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: a00caac4f0cec045f7f67d222c3fcd0744285c51 # frozen: 0.23.1
+    rev: fd9dcbefa7f0e094e02841e992489e8b9d394f8a # frozen: 0.23.1
     hooks:
       - id: check-renovate
