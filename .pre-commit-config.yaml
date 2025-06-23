@@ -18,7 +18,7 @@ repos:
       - id: prettier
 
   - repo: https://github.com/crate-ci/typos
-    rev: 20b36ca07fa1bfe124912287ac8502cf12f140e6 # frozen: v1.14.12
+    rev: b1ae8d918b6e85bd611117d3d9a3be4f903ee5e4 # frozen: v1.33.1
     hooks:
       - id: typos
 
